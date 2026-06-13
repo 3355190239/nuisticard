@@ -270,7 +270,7 @@ class NotificationCenter:
 
     def dispatch_all(self, balance):
 
-        title = "📝 宿舍电费通知"
+        title = "⚡ NUIST 电费每日推送"
         # 移除了时间的拼接，仅保留电量
         content = f"剩余电量: {balance} 度"
 
