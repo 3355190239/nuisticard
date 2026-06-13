@@ -33,7 +33,7 @@ pip install requests ddddocr beautifulsoup4 pycryptodome
 由于每个人的宿舍对应唯一的 ID，你需要先通过浏览器抓包获取属于你自己的 5 个宿舍参数。
 
 > **💡 抓包提示：**
-> 1. 在电脑浏览器登录 [南信大一卡通网页版](https://icard.nuist.edu.cn)。
+> 1. 在电脑浏览器登录 [南信大一卡通网页版]([https://icard.nuist.edu.cn](https://icard.nuist.edu.cn/plat-pc/businesslobby?synjones-auth=&visitor=0&synAccessSource=pc&source=pc&type=url))。
 > 2. 按 `F12` 打开开发者工具，进入“网络 (Network)”面板。
 > 3. 在页面上手动查询一次电费。
 > 4. 找到名为 `getThirdData` 的网络请求，查看其 **负载 (Payload)** 或 **表单数据 (Form Data)**。
